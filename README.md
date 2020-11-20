@@ -4,19 +4,19 @@ The sample workspace contains two projects, Sample that creates a framework and 
 
 ## Part One – Success
 
-● Open the sample workspace
-● Select the sampleApp in the schemes menu
-● Select Run from the Product menu
-● In the console you will see two log messages “ObjCClass doSomething” and “SwiftClass doSomething” indicating the app successfully ran
+* Open the sample workspace
+* Select the sampleApp in the schemes menu
+* Select Run from the Product menu
+* In the console you will see two log messages “ObjCClass doSomething” and “SwiftClass doSomething” indicating the app successfully ran
 
 ## Part Two - Failure
 
-● Select the sampleAggregate in the schemes menu
-● Select Archive in the Product menu
-● Once the build completes locate the sample.xcframework in sample/Output/sample-Release/
-● Copy sample.xcframework to sampleAppConsumer/sampleApp/
+* Select the sampleAggregate in the schemes menu
+* Select Archive in the Product menu
+* Once the build completes locate the sample.xcframework in sample/Output/sample-Release/
+* Copy sample.xcframework to sampleAppConsumer/sampleApp/
 
-● Open the sampleApp.xcodeproj file in the sampleAppConsumer folder
-● Select Build from the Product menu
+* Open the sampleApp.xcodeproj file in the sampleAppConsumer folder
+* Select Build from the Product menu
 
 A No such module 'SwiftyJSON' error will be displayed for the import SwiftyJSON in the generated swiftInterface file
